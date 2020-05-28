@@ -6,9 +6,6 @@ scanf_format:
 printf_format:
     db '%lld', 0xA, 0
 
-array_size:
-    dq 0x0
-
 section .text
 
 extern printf
